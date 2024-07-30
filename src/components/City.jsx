@@ -12,12 +12,12 @@ import { useSearchParams, useParams } from 'react-router-dom';
 
 function City() {
   /* In this component:  useParams() = {id: '98443197'} */
-  const { id } = useParams()
+  const { id } = useParams();
 
   /* Extract the query string `${id}?lat=${position.lat}&lng=${position.lng}` with  useSearchParams() */
-  const [searchParams, setSearchParams] = useSearchParams()
-  const lat = searchParams.get("lat")
-  const lng = searchParams.get("lng")
+  const [searchParams, setSearchParams] = useSearchParams();
+  const lat = searchParams.get('lat');
+  const lng = searchParams.get('lng');
   // TEMP DATA
   /*   const currentCity = {
       cityName: "Lisbon",
@@ -31,8 +31,9 @@ function City() {
   return (
     <>
       <h1>City {id}</h1>
-      <p>Position: {lat}, {lng}</p>
-
+      <p>
+        Position: {lat}, {lng}
+      </p>
     </>
     /*  <div className={styles.city}>
        <div className={styles.row}>
