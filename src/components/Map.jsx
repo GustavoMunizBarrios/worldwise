@@ -66,7 +66,7 @@ function DetectClick() {
   const navigate = useNavigate(); // with useNavigate we can move to any URL
 
   useMapEvents({
-    click: (e) => navigate(`form`),
+    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
   });
 }
 export default Map;
