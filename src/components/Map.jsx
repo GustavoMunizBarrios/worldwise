@@ -11,13 +11,15 @@ import styles from './Map.module.css';
 import { useEffect, useState } from 'react';
 import { useCities } from '../contexts/CitiesContext';
 import { useGeolocation } from '../hooks/useGeolocation';
+import { useUrlPosition } from '../hooks/useUrlPosition';
 import Button from './Button';
 
 function Map() {
   //const navigate = useNavigate(); // with useNavigate we can move to any URL
   const { cities } = useCities();
-  const [mapPosition, setMapPosition] = useState([22.251877, -97.8395161]);
-  const [searchParams] = useSearchParams();
+  const [mapPosition, setMapPosition] = useState([
+    19.43162918399349, -99.13101196289064,
+  ]);
   //Rename "isLoading" and "position" for "isLoading" and "position"
   const {
     isLoading: isLoadingPosition,
@@ -25,8 +27,7 @@ function Map() {
     getPosition,
   } = useGeolocation();
 
-  const mapLat = searchParams.get('lat');
-  const mapLng = searchParams.get('lng');
+  const [mapLat, mapLng] = useUrlPosition();
 
   //Effect to update the map position when search parameters change.
   useEffect(
@@ -51,7 +52,7 @@ function Map() {
       </Button>
       <MapContainer
         center={mapPosition}
-        zoom={8}
+        zoom={7}
         scrollWheelZoom={true}
         className={styles.map}
       >
@@ -69,6 +70,17 @@ function Map() {
             </Popup>
           </Marker>
         ))}
+        {geolocationPosition && (
+          <Marker
+            position={[geolocationPosition.lat, geolocationPosition.lng]}
+            key={345}
+          >
+            {/*             <Popup>
+              <span>{city.emoji}</span> <span>{city.cityName}</span>
+            </Popup> */}
+          </Marker>
+        )}
+
         <ChangeCenter position={mapPosition} />
         <DetectClick />
       </MapContainer>
