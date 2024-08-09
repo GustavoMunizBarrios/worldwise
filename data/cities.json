@@ -59,6 +59,18 @@
         "lat": "19.40443049681278",
         "lng": "-99.11865234375"
       }
+    },
+    {
+      "id": "be7f",
+      "cityName": "Lagos de Moreno",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2024-08-09T15:55:57.842Z",
+      "notes": "Quien va a lagos de Moreno?",
+      "position": {
+        "lat": "21.353339209476527",
+        "lng": "-101.93664550781251"
+      }
     }
   ]
 }
