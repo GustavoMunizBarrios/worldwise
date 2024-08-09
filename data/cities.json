@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -58,18 +46,6 @@
       "position": {
         "lat": "19.40443049681278",
         "lng": "-99.11865234375"
-      }
-    },
-    {
-      "id": "be7f",
-      "cityName": "Lagos de Moreno",
-      "country": "Mexico",
-      "emoji": "🇲🇽",
-      "date": "2024-08-09T15:55:57.842Z",
-      "notes": "Quien va a lagos de Moreno?",
-      "position": {
-        "lat": "21.353339209476527",
-        "lng": "-101.93664550781251"
       }
     }
   ]
