@@ -25,18 +25,6 @@
       "id": "98443197"
     },
     {
-      "id": "9b26",
-      "cityName": "Washington",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2024-08-08T03:23:09.411Z",
-      "notes": "",
-      "position": {
-        "lat": "38.82259097617713",
-        "lng": "-76.90429687500001"
-      }
-    },
-    {
       "id": "51a5",
       "cityName": "Mexico City",
       "country": "Mexico",
@@ -46,6 +34,30 @@
       "position": {
         "lat": "19.40443049681278",
         "lng": "-99.11865234375"
+      }
+    },
+    {
+      "id": "1166",
+      "cityName": "America/Mazatlan",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2024-07-25T02:29:51.000Z",
+      "notes": "Buenas playas",
+      "position": {
+        "lat": "23.17066382710224",
+        "lng": "-106.44653320312501"
+      }
+    },
+    {
+      "id": "bb63",
+      "cityName": "Birmingham",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-08-10T02:42:48.884Z",
+      "notes": "sweet home Alabama",
+      "position": {
+        "lat": "33.486435450999885",
+        "lng": "-86.78100585937501"
       }
     }
   ]
