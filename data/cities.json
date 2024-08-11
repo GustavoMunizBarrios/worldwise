@@ -37,18 +37,6 @@
       }
     },
     {
-      "id": "1166",
-      "cityName": "America/Mazatlan",
-      "country": "Mexico",
-      "emoji": "🇲🇽",
-      "date": "2024-07-25T02:29:51.000Z",
-      "notes": "Buenas playas",
-      "position": {
-        "lat": "23.17066382710224",
-        "lng": "-106.44653320312501"
-      }
-    },
-    {
       "id": "bb63",
       "cityName": "Birmingham",
       "country": "United States of America (the)",
@@ -58,6 +46,18 @@
       "position": {
         "lat": "33.486435450999885",
         "lng": "-86.78100585937501"
+      }
+    },
+    {
+      "id": "52b6",
+      "cityName": "Ciudad Madero",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2024-08-11T22:42:17.469Z",
+      "notes": "Es mi hogar",
+      "position": {
+        "lat": "22.235717620542733",
+        "lng": "-97.83874511718751"
       }
     }
   ]
