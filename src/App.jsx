@@ -1,3 +1,11 @@
+/**
+ * The main App component that sets up the routing for the application.
+ *
+ * This component uses the `BrowserRouter` from `react-router-dom` to enable client-side routing.
+ * It also uses the `AuthProvider` and `CitiesProvider` to provide authentication and cities data to the app.
+ *
+ * The routing is set up using the `Routes` and `Route` components from `react-router-dom`.
+ */
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Product from './pages/Product';
 import Pricing from './pages/Pricing';
@@ -19,8 +27,8 @@ function App() {
       <CitiesProvider>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Homepage />} />{' '}
             {/* "index" mean Homepage is default route  */}
+            <Route index element={<Homepage />} />{' '}
             <Route path='product' element={<Product />} />
             <Route path='pricing' element={<Pricing />} />
             <Route path='login' element={<Login />} />
