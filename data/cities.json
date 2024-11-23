@@ -49,15 +49,15 @@
       }
     },
     {
-      "id": "52b6",
+      "id": "eadd",
       "cityName": "Ciudad Madero",
       "country": "Mexico",
       "emoji": "🇲🇽",
-      "date": "2024-08-11T22:42:17.469Z",
-      "notes": "Es mi hogar",
+      "date": "2024-11-30T02:39:19.000Z",
+      "notes": "My home",
       "position": {
-        "lat": "22.235717620542733",
-        "lng": "-97.83874511718751"
+        "lat": "22.26177410097435",
+        "lng": "-97.83325195312501"
       }
     }
   ]
