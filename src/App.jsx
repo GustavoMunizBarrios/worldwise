@@ -31,7 +31,6 @@ function App() {
       <CitiesProvider>
         <BrowserRouter>
           <Suspense fallback={<SpinnerFullPage />}>
-            {' '}
             {/* video 253 */}
             <Routes>
               {/* "index" mean Homepage is default route  */}
